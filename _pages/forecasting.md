@@ -1,11 +1,11 @@
 ---
 layout: page
-title: forecasting
+title: Forecasting
 permalink: /forecasting/
-description: A growing collection of your cool projects.
+description: Projects and publications related to forecasting for fashion.
 nav: true
 display_categories: [work, fun]
 horizontal: false
 ---
 
-More info coming soon...
+More info coming soon (WIP)...
