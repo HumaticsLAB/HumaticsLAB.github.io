@@ -5,7 +5,7 @@ permalink: /forecasting/fashion
 description: Projects and publications related to forecasting for fashion.
 description: a project with a background image
 importance: 1
-category: fashion
+category: Fashion Forecasting
 ---
 
 More info coming soon (WIP)...

@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 2
+title: Trajectory Analysis
 description: a project with a background image
 img: assets/img/3.jpg
 importance: 2
-category: work
+category:  Trajectory Analysis
 ---
 
 Every project has a beautiful feature showcase page.
