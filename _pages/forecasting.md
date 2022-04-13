@@ -4,7 +4,8 @@ title: Forecasting
 permalink: /forecasting/
 description: Projects and publications related to forecasting.
 nav: true
-horizontal: false
+display_categories: [Fashion Forecasting, Trajectory Analysis]
+horizontal: true
 ---
 
 
