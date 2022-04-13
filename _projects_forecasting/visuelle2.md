@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visuelle 2.0
-permalink: /forecasting/fashion
+permalink: /forecasting/visuelle
 img: assets/img/sf_fore.png
 description: The first, publicly available, multi-modal fashion forecasting dataset based on real-world data. 
 importance: 2
