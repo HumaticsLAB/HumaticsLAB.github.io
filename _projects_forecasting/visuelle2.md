@@ -26,9 +26,9 @@ Each product in our dataset is accompanied by an HD image, textual tags and more
 
 
 ### Data and code
-You can download Visuelle 2.0 by filling out this simple form (the download link will be provided on completion): *available soon...*. 
+You can download Visuelle 2.0 by filling out this simple form (the download link will be provided upon completion): *...*. 
 
-Along with the dataset, we also *provide Python code to load the files using PyTorch*, in order to demonstrate how to use the dataset for the SO-Fore and Demand forecasting tasks. The code also helps in understanding how to process the data and use them for another task which you find suitable.
+Along with the dataset, we also *provide Python code to load the files using PyTorch*, in order to demonstrate how to use the dataset for the SO-Fore and Demand forecasting tasks. The code also helps in understanding how to process the data and use them for other tasks which you find suitable.
 
 
 
