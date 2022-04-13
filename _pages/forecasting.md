@@ -8,10 +8,9 @@ horizontal: false
 ---
 
 
-
 <!-- pages/projects.md -->
 <div class="projects">
-{%- assign sorted_projects = site.projects | sort: "importance" -%}
+{%- assign sorted_projects = site.projects_forecasting | sort: "importance" -%}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
