@@ -4,9 +4,9 @@ title: About
 permalink: /
 subtitle: Strada le Grazie 15, 37134 Verona (Italy)
 
-profile:
-  align: top
-  image: hmlab_clean.png
+#profile:
+#  align: top
+#  image: hmlab_clean.png
   # address: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
