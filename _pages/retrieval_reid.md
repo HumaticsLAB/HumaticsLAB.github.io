@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Image Retrieval and Re-Identification
-permalink: /retrival_reid/
-description: Projects and publications related to image retrieval and re-identification tasks.
+title: Others
+permalink: /others/
+description: Projects and publications related to other computer vision tasks.
 nav: true
 display_categories: ['Image Retrieval'] #Re-Identification
 horizontal: false
@@ -14,7 +14,7 @@ horizontal: false
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects_retrieval_reid | where: "category", category -%}
+  {%- assign categorized_projects = site.projects_others| where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
