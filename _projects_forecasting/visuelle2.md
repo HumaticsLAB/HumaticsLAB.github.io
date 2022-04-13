@@ -13,11 +13,11 @@ Visuelle 2.0 is a dataset containing real data for 5355 clothing products of  th
 Each product in our dataset is accompanied by an HD image, textual tags and more. The time series data are disaggregated at the shop level, and include the sales, inventory stock, max-normalized prices (for the sake of confidentiality} and discounts. Exogenous time series data is also provided, in the form of Google Trends based on the textual tags and multivariate weather conditions of the stores' locations. Finally, we also provide purchase data for 667K customers whose identity has been anonymized, to capture personal preferences. With these data, Visuelle 2.0 allows to cope with several problems which characterize the activity of a fast fashion company: *new product demand forecasting*, *short-observation new product sales forecasting*, and *product recommendation*.
 
 <div class="container">
-    <img src="ex2.png" width="800px" height="100%" />
-    <img src="ex1.png" width="800px" height="100%" />
-    <embed src="google_trends.pdf" width="800px" height="100%" />
-    <img src="turin_weather.png" width="800px" height="100%" />
-    <embed src="customer_purchases.pdf" width="800px" height="100%" />
+    <img src="assets\img\vis2\ex2.png" width="800px" height="100%" />
+    <img src="assets\img\vis2\ex1.png" width="800px" height="100%" />
+    <embed src="assets\img\vis2\google_trends.pdf" width="800px" height="100%" />
+    <img src="assets\img\vis2\turin_weather.png" width="800px" height="100%" />
+    <embed src="assets\img\vis2\customer_purchases.pdf" width="800px" height="100%" />
 </div>
 
 
