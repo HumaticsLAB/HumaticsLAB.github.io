@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MovingFashion
+title: Video2Shop
 permalink: /retrieval/movingfashion
 img: assets/img/movingfashion.png
 description: We present MovingFashion, the first publicly available dataset to cope with video-to-shop challenge.
