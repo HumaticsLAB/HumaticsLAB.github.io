@@ -4,7 +4,7 @@ title: Trajectory Analysis
 permalink: /forecasting/trajectories
 description: Projects and publications related to forecasting for trajectories analysis.
 img: assets/img/traj_fore.png
-importance: 2
+importance: 1
 category:  Trajectory Analysis
 ---
 
