@@ -102,9 +102,9 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+  projects_forecasting:
     output: true
-    permalink: /projects/:path/
+    permalink: /projects_forecasting/:path/
 
 news_limit: 5
 
