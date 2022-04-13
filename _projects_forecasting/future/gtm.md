@@ -4,7 +4,7 @@ title: GTM-Transformer
 permalink: /forecasting/gtm
 img: assets/img/gtm.png
 description: Projects and publications related to forecasting for fashion.
-importance: 1
+importance: 2
 category: Fashion Forecasting
 ---
 
