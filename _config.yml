@@ -105,6 +105,9 @@ collections:
   projects_forecasting:
     output: true
     permalink: /projects_forecasting/:path/
+  projects_retrieval_reid:
+    output: true
+    permalink: /projects_retrieval_reid/:path/
 
 news_limit: 5
 
