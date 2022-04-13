@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Others
+title: others
 permalink: /others/
 description: Projects and publications related to other computer vision tasks.
 nav: true

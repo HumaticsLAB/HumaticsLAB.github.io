@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Forecasting
+title: forecasting
 permalink: /forecasting/
 description: Projects and publications related to forecasting.
 nav: true
