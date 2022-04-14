@@ -2,7 +2,7 @@
 layout: page
 title: Visuelle 2.0
 permalink: /forecasting/visuelle
-img: assets/img/vis2/ex2.png
+img: assets/img/st_fore.png
 description: The first, publicly available, multi-modal fashion forecasting dataset based on real-world data. 
 importance: 1
 category: Fashion Forecasting
@@ -26,7 +26,7 @@ Each product in our dataset is accompanied by an HD image, textual tags and more
 
 
 ## Data and code
-You can download the Visuelle 2.0 dataset by filling out [this simple form]((https://forms.gle/teuLvTcTFLdRHPiEA)) (the download link will be provided upon completion)
+You can download the Visuelle 2.0 dataset by filling out [this simple form](https://forms.gle/8Sk431AsEgCot9Kv5) (the download link will be provided upon completion)
 
 The code demonstrating how to use the dataset for the forecasting tasks described in the paper and also for the RNN-based model we used to obtain the best results is available here: *coming soon...*
 
