@@ -7,6 +7,7 @@ description: The first, publicly available, multi-modal fashion forecasting data
 importance: 1
 category: Fashion Forecasting
 ---
+***Accepted at the 5th Workshop on Computer Vision for Fashion, Art, and Design @ CVPR22***
 
 ## Dataset description
 Visuelle 2.0 is a dataset containing real data for 5355 clothing products of  the retail fast-fashion Italian company, [Nuna Lie](https://www.nunalie.it/en/). Specifically, Visuelle 2.0 provides data from 6 fashion seasons (partitioned in Autumn-Winter and Spring-Summer) from 2017-2019, right before the Covid-19 pandemic. 
@@ -29,5 +30,21 @@ Each product in our dataset is accompanied by an HD image, textual tags and more
 You can download the Visuelle 2.0 dataset by filling out [this simple form](https://forms.gle/8Sk431AsEgCot9Kv5) (the download link will be provided upon completion)
 
 The code demonstrating how to use the dataset for the forecasting tasks described in the paper and also for the RNN-based model we used to obtain the best results is available here: *coming soon...*
+
+## Citation
+If you use Visuelle 2.0, please cite our the paper. Do not hesitate to contact any of the authors with any comments or feedback.
+
+```
+@misc{https://doi.org/10.48550/arxiv.2204.06972,
+  doi = {10.48550/ARXIV.2204.06972},
+  url = {https://arxiv.org/abs/2204.06972},
+  author = {Skenderi, Geri and Joppi, Christian and Denitto, Matteo and Scarpa, Berniero and Cristani, Marco},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {The multi-modal universe of fast-fashion: the Visuelle 2.0 benchmark},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+}
+```
 
 
