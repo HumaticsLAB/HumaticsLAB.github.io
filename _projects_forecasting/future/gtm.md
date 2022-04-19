@@ -3,7 +3,7 @@ layout: page
 title: GTM-Transformer
 permalink: /forecasting/gtm
 img: assets/img/gtm.png
-description: Projects and publications related to forecasting for fashion.
+description: Multimodal Forecasting of New Fashion Product Sales with Image-based Google Trends.
 importance: 2
 category: Fashion Forecasting
 ---

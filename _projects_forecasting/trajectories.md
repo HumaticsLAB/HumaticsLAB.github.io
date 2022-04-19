@@ -2,7 +2,7 @@
 layout: page
 title: Trajectory Analysis
 permalink: /forecasting/trajectories
-description: More info coming soon (WIP) ...
+description: Transformer Networks for Trajectory Forecasting
 img: assets/img/traj_fore.png
 importance: 1
 category:  Trajectory Analysis
