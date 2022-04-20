@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "MX-LSTM: Mixing Tracklets and Vislets to Jointly Forecast Trajectories and Head Poses"
+title: "MX-LSTM"
 permalink: /forecasting/trajectories
-description: Trajectory Forecasting
+description: "Mixing Tracklets and Vislets to Jointly Forecast Trajectories and Head Poses"
 img: assets/img/mx-lstm.png
 importance: 2
 category:  Trajectory Analysis
