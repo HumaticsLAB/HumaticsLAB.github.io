@@ -1,14 +1,13 @@
 ---
 layout: page
-title: Trajectory Analysis
+title: Transformer Networks for Trajectory Forecasting
 permalink: /forecasting/trajectories
-description: Transformer Networks for Trajectory Forecasting
+description: Trajectory Forecasting
 img: assets/img/traj_fore.png
 importance: 1
 category:  Trajectory Analysis
 ---
 
-# Transformer Networks for Trajectory Forecasting
 
 ***Accepted at 25th International Conference on Pattern Recognition (ICPR 2020)***
 
