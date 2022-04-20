@@ -13,7 +13,7 @@ This work investigates the effectiveness of systematically probing Google Trends
 Dataset and Code reachable [here](https://github.com/HumaticsLAB/GTM-Transformer).
 
 ## Citation
-If you use GTM-Transformer or the first version of the dataset VISUELLE, please cite our the paper. Do not hesitate to contact any of the authors with any comments or feedback.
+If you use GTM-Transformer or the first version of the dataset VISUELLE, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
 
 ```
 @misc{https://doi.org/10.48550/arxiv.2109.09824,

@@ -16,7 +16,7 @@ Retrieving clothes which are worn in social media videos (Instagram, TikTok) is 
 Dataset and Code reachable [here](https://github.com/HumaticsLAB/SEAM-Match-RCNN).
 
 ## Citation
-If you use MovingFashion or SEAM Match-RCNN, please cite our the paper. Do not hesitate to contact any of the authors with any comments or feedback.
+If you use MovingFashion or SEAM Match-RCNN, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
 
 ```
 @inproceedings{godi2022movingfashion,

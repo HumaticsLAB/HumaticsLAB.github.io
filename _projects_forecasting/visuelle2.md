@@ -32,7 +32,7 @@ You can download the Visuelle 2.0 dataset by filling out [this simple form](http
 The code demonstrating how to use the dataset for the forecasting tasks described in the paper and also for the RNN-based model we used to obtain the best results is available here: *coming soon...*
 
 ## Citation
-If you use Visuelle 2.0, please cite our the paper. Do not hesitate to contact any of the authors with any comments or feedback.
+If you use Visuelle 2.0, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
 
 ```
 @misc{https://doi.org/10.48550/arxiv.2204.06972,
