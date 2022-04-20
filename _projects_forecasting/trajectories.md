@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Transformer Networks for Trajectory Forecasting
+title: Transformer Networks
 permalink: /forecasting/trajectories
-description: Trajectory Forecasting
+description: Transformer Networks for Trajectory Forecasting
 img: assets/img/traj_fore.png
 importance: 1
 category:  Trajectory Analysis
