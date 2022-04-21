@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Transformer Networks
-permalink: /forecasting/trajectories
+permalink: /forecasting/transfnetfore
 description: Transformer Networks for Trajectory Forecasting
 img: assets/img/traj_fore.png
 importance: 1
