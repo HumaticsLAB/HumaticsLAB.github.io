@@ -35,15 +35,10 @@ The code demonstrating how to use the dataset for the forecasting tasks describe
 If you use Visuelle 2.0, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
 
 ```
-@misc{https://doi.org/10.48550/arxiv.2204.06972,
-  doi = {10.48550/ARXIV.2204.06972},
-  url = {https://arxiv.org/abs/2204.06972},
-  author = {Skenderi, Geri and Joppi, Christian and Denitto, Matteo and Scarpa, Berniero and Cristani, Marco},
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  title = {The multi-modal universe of fast-fashion: the Visuelle 2.0 benchmark},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
+@inproceedings{skenderi2022multi,
+  title={The multi-modal universe of fast-fashion: the Visuelle 2.0 benchmark},
+  author={Skenderi, Geri and Joppi, Christian and Denitto, Matteo and Scarpa, Berniero and Cristani, Marco},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
 }
 ```
 
