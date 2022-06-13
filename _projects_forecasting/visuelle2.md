@@ -35,11 +35,13 @@ The code demonstrating how to use the dataset for the forecasting tasks describe
 If you use Visuelle 2.0, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
 
 ```
-@inproceedings{skenderi2022multi,
-  title={The multi-modal universe of fast-fashion: the Visuelle 2.0 benchmark},
-  author={Skenderi, Geri and Joppi, Christian and Denitto, Matteo and Scarpa, Berniero and Cristani, Marco},
-  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
-  year={2022}
+@InProceedings{Skenderi_2022_CVPR,
+    author    = {Skenderi, Geri and Joppi, Christian and Denitto, Matteo and Scarpa, Berniero and Cristani, Marco},
+    title     = {The Multi-Modal Universe of Fast-Fashion: The Visuelle 2.0 Benchmark},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {2241-2246}
 }
 ```
 
