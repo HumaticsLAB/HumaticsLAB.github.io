@@ -18,14 +18,14 @@ in the past. All these images are used to confidently learn a binary classifier 
 images are projected into an embedding space by the learned model andcompared with the (also projected) initial probe image, providing the Kpast-long POP signal. The POP signal indicates how popular the probe could have been
 if it were available earlier in the past, and how this notion evolved over time. After its formation, POP can be used as an additional, exogenous variable in any forecasting model along with the probe item.
 
-![POP data-centric pipeline](/assets/img/pop/pop_pipeline.png "Data-centric pipeline to create POP"){:class="img-responsive" height="auto" width="750px"}
+![POP data-centric pipeline](/assets/img/pop_pipeline.png "Data-centric pipeline to create POP"){:class="img-responsive" height="auto" width="750px"}
 
 
 ## Data and code
 You can download the POP signals and the GTM architecture to use them [here](https://github.com/HumaticsLAB/POP-Mining-POtential-Performance)
 
 ## Citation
-If you use POP signal, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
+If you use POP signals, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.
 
 ```
 COMING SOON
