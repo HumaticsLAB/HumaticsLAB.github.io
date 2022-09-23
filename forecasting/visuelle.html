@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HumaticsLab | blog</title>
+    <title>HumaticsLab | Visuelle 2.0</title>
     <meta name="author" content="  " />
-    <meta name="description" content="The official webpage of HumaticsLAB research group.
-" />
+    <meta name="description" content="The first, publicly available, multi-modal fashion forecasting dataset based on real-world data." />
     <meta name="keywords" content="humaticslab, humatics, fashion, fashionAI, computervision" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://humaticslab.github.io//blog/">
+    <link rel="canonical" href="https://humaticslab.github.io//forecasting/visuelle">
     
     <!-- Dark Mode -->
     
@@ -80,8 +79,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -94,121 +93,62 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Visuelle 2.0</h1>
+            <p class="post-description">The first, publicly available, multi-modal fashion forecasting dataset based on real-world data.</p>
+          </header>
+
+          <article>
+            <p><strong><em>Accepted at the 5th Workshop on Computer Vision for Fashion, Art, and Design @ CVPR22</em></strong></p>
+
+<h2 id="dataset-description">Dataset description</h2>
+<p>Visuelle 2.0 is a dataset containing real data for 5355 clothing products of  the retail fast-fashion Italian company, <a href="https://www.nunalie.it/en/" target="_blank" rel="noopener noreferrer">Nuna Lie</a>. Specifically, Visuelle 2.0 provides data from 6 fashion seasons (partitioned in Autumn-Winter and Spring-Summer) from 2017-2019, right before the Covid-19 pandemic.</p>
+
+<p>Each product in our dataset is accompanied by an HD image, textual tags and more. The time series data are disaggregated at the shop level, and include the sales, inventory stock, max-normalized prices (for the sake of confidentiality} and discounts. Exogenous time series data is also provided, in the form of Google Trends based on the textual tags and multivariate weather conditions of the stores’ locations. Finally, we also provide purchase data for 667K customers whose identity has been anonymized, to capture personal preferences. With these data, Visuelle 2.0 allows to cope with several problems which characterize the activity of a fast fashion company: <em>new product demand forecasting</em>, <em>short-observation new product sales forecasting</em>, and <em>product recommendation</em>.</p>
+
+<h4 id="different-products-and-their-data-sales-inventory-and-discount-series">Different products and their data, sales, inventory and discount series</h4>
+<p><img src="/assets/img/vis2/ex2.png" alt="Examples of different products and their data" title="Examples of different products and their data" class="img-responsive" height="auto" width="750px">
+<img src="/assets/img/vis2/ex1.png" alt="" class="img-responsive" height="auto" width="750px"></p>
+
+<h4 id="examples-of-the-exogenous-google-trend-and-weather-data">Examples of the exogenous Google Trend and weather data</h4>
+<p><img src="/assets/img/vis2/gtrends.png" alt="Example of the exogenous Google Trend data" title="Example of the exogenous Google Trend data" class="img-responsive" height="auto" width="750px">
+<img src="/assets/img/vis2/weather.png" alt="Extract of the exogenous weather data" title="Extract of the exogenous weather data" class="img-responsive" height="auto" width="750px"></p>
+
+<h4 id="purchases-for-10-different-customers">Purchases for 10 different customers</h4>
+<p><img src="/assets/img/vis2/customer_purchases.png" alt="Purchases for 10 different customers" title="Purchases for 10 different customers" class="img-responsive" height="auto" width="750px"></p>
+
+<h2 id="data-and-code">Data and code</h2>
+<p>You can download the Visuelle 2.0 dataset by filling out <a href="https://forms.gle/8Sk431AsEgCot9Kv5" target="_blank" rel="noopener noreferrer">this simple form</a> (the download link will be provided upon completion)</p>
+
+<p>The code demonstrating how to use the dataset for the forecasting tasks described in the paper and also for the RNN-based model we used to obtain the best results is available <a href="https://github.com/HumaticsLAB/visuelle2.0-code" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<h2 id="citation">Citation</h2>
+<p>If you use Visuelle 2.0, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@InProceedings{Skenderi_2022_CVPR,
+    author    = {Skenderi, Geri and Joppi, Christian and Denitto, Matteo and Scarpa, Berniero and Cristani, Marco},
+    title     = {The Multi-Modal Universe of Fast-Fashion: The Visuelle 2.0 Benchmark},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2022},
+    pages     = {2241-2246}
+}
+</code></pre></div></div>
 
 
-  <ul class="post-list">
-    
+          </article>
 
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-        
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta"> 3 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022   . Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2022   . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 Last updated: September 23, 2022.
       </div>
     </footer>

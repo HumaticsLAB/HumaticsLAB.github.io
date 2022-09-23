@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>HumaticsLab | blog</title>
+    <title>HumaticsLab | Transformer Networks</title>
     <meta name="author" content="  " />
-    <meta name="description" content="The official webpage of HumaticsLAB research group.
-" />
+    <meta name="description" content="Transformer Networks for Trajectory Forecasting" />
     <meta name="keywords" content="humaticslab, humatics, fashion, fashionAI, computervision" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚛️</text></svg>">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://humaticslab.github.io//blog/">
+    <link rel="canonical" href="https://humaticslab.github.io//forecasting/transfnetfore">
     
     <!-- Dark Mode -->
     
@@ -80,8 +79,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -94,121 +93,44 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1>al-folio</h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Transformer Networks</h1>
+            <p class="post-description">Transformer Networks for Trajectory Forecasting</p>
+          </header>
 
+          <article>
+            <p><strong><em>Accepted at 25th International Conference on Pattern Recognition (ICPR 2020)</em></strong></p>
 
-  <ul class="post-list">
-    
+<p>Most recent successes on forecasting the people motion are based on LSTM models and all most recent progress has been achieved by modelling the social interaction among people and the people interaction with the scene. We question the use of the LSTM models and propose the novel use of Transformer Networks for trajectory forecasting. This is a fundamental switch from the sequential step-by-step processing of LSTMs to the only-attention-based memory mechanisms of Transformers. In particular, we consider both the original Transformer Network (TF) and the larger Bidirectional Transformer (BERT), state-of-the-art on all natural language processing tasks. Our proposed Transformers predict the trajectories of the individual people in the scene. These are “simple” model because each person is modelled separately without any complex human-human nor scene interaction terms. In particular, the TF model without bells and whistles yields the best score on the largest and most challenging trajectory forecasting benchmark of TrajNet. Additionally, its extension which predicts multiple plausible future trajectories performs on par with more engineered techniques on the 5 datasets of ETH + UCY. Finally, we show that Transformers may deal with missing observations, as it may be the case with real sensor data.</p>
 
-    
-    
-    
-    
+<p>Code reachable <a href="https://github.com/HumaticsLAB/Trajectory-Transformer" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+<h2 id="citation">Citation</h2>
+<p>If you use the code, please cite our paper. Do not hesitate to contact any of the authors with any comments or feedback.</p>
 
-          
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{giuliari2021transformer,
+  title={Transformer networks for trajectory forecasting},
+  author={Giuliari, Francesco and Hasan, Irtiza and Cristani, Marco and Galasso, Fabio},
+  booktitle={2020 25th International Conference on Pattern Recognition (ICPR)},
+  pages={10335--10342},
+  year={2021},
+  organization={IEEE}
+}
+</code></pre></div></div>
 
-          
-    </p>
-    </li>
+          </article>
 
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-        
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta"> 3 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blog - page 3">3</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/4/index.html" title="blog - page 4">4</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2022   . Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2022   . Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 Last updated: September 23, 2022.
       </div>
     </footer>
